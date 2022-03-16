@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "Match.user.passwordConfirmation",
+    "type": "java.lang.String",
+    "description": "A description for 'Match.user.passwordConfirmation'"
+  },
+  {
+    "name": "Size.user.username",
+    "type": "java.lang.String",
+    "description": "A description for 'Size.user.username'"
+  },
+  {
+    "name": "Size.user.password",
+    "type": "java.lang.String",
+    "description": "A description for 'Size.user.password'"
+  },
+  {
+    "name": "Match.user.passwordConfirmation",
+    "type": "java.lang.String",
+    "description": "A description for 'Match.user.passwordConfirmation'"
+  },
+  {
+    "name": "security.basic.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'security.basic.enabled'"
+  }
+]}
