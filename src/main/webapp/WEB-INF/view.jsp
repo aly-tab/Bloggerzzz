@@ -6,6 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bloggerzzz</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -13,7 +14,7 @@
 	<div id="head">
 		<c:choose>
 		<c:when test="${loggedIn != null}">
-		<div>
+		<div id="l">
 			<h1>Logged in as <c:out value="${username}"/></h1>
 		</div>
 		<div id="link-btns">

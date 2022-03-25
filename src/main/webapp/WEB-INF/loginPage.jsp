@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Login Page</title>
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css"/>
 </head>
@@ -22,11 +23,11 @@
     	<table>
     	<tbody>
         <tr>
-            <td><label for="username">Username</label></td>
+            <td><label for="username">Username:</label></td>
             <td><input class="login"  type="text" id="username" name="username"/></td>
         </tr>
         <tr>
-            <td><label for="password">Password</label></td>
+            <td><label for="password">Password:</label></td>
             <td><input class="login"  type="password" id="password" name="password"/></td>
         </tr>
         </tbody>

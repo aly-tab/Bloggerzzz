@@ -270,13 +270,11 @@ pre {
 
 #login {
 	padding-top:125px;
-	width: 24%;
-	margin: 0 auto;
-	text-align: center;
 }
 
 #login h1 {
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 #login label {
@@ -302,13 +300,11 @@ pre {
 
 #register {
 	padding-top:125px;
-	width: 24%;
-	margin: 0 auto;
-	text-align: center;	
 }
 
 #register h1 {
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 #register label {
@@ -370,6 +366,17 @@ pre {
 	color: white;
 }
 
+#register form, #login form {
+	margin: 0 auto;
+	width: 400px;
+}
+
+@media only screen and (max-width: 1100px) {
+	.welcome h1 {
+		font-size: 1.4em;
+	}	
+}
+
 @media only screen and (max-width: 900px) {
 	#head h1 {
 		font-size: 1.4em;
@@ -401,6 +408,15 @@ pre {
 	.logout {
 		font-size: .6em;
 		margin-top: 27px;
+	}
+	
+	.welcome h1 {
+		font-size: 1em;
+	}	
+	
+	.welcome a {
+		font-size: 0.8em;
+	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -435,5 +451,81 @@ pre {
 	#write textarea {
 		width: 400px;
 	}
+	
+	#blogs h1 {
+		font-size: 1.5em;
+	}
+	
+	#blogs a {
+		font-size: 0.8em;
+	}
+	
+	#content h1 {
+		font-size: 1.5em;
+	}
+
+	.register {
+		width: 225px;
+	}
+	
+@media only screen and (max-width: 500px) {
+
+	.register {
+		width: 160px;
+	}
+	
+	.welcome h1 {
+		font-size: 0.8em;
+	}	
+	
+	#head h1 {
+		visibility: hidden;
+	}
+	
+	#head a {
+		font-size: .3em;
+	}
+	
+	#l {
+		width: 0px;
+	}
+	
+	#account h1 {
+		font-size: 1.5em;
+	}
+	
+	#account p, #account a {
+		font-size: 0.7em;
+	}
 }
 
+@media only screen and (max-width: 420px) {
+	
+	#write {
+		width: 420px;
+	}
+	
+	#write form {
+		width: 420px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	#register {
+		width: 400px;
+	}
+	
+	#login {
+		width: 400px;
+	}
+	
+	.welcome h1 {
+		font-size: 0.7em;
+	}	
+	.welcome a {
+		font-size: 0.64em;
+	}	
+}
+
+}
